@@ -1,0 +1,12 @@
+.container{
+    border: 1px solid black;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.container p {
+    align-self: flex-end;
+    margin: 0px;
+    padding: 0px;
+}

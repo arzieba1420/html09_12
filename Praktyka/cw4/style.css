@@ -1,0 +1,93 @@
+:root{
+    --main-dark-blue: #131326;
+    --main-light-dark: #fbfbfb;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--main-dark-blue);
+    height: 80px;
+}
+
+.header a{
+    color: var(--main-light-dark);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Raleway',sans-serif;
+}
+
+.nav{
+    align-self: center;
+}
+
+.userBox{
+    align-self: center;
+}
+
+.logo{
+    color: aquamarine;
+    font-style: italic;
+}
+
+.nav a{
+    padding: 10px 30px;
+}
+
+.nav a:hover{
+    color: black;
+    background-color: aquamarine;
+}
+
+.userBox a{
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid white;
+}
+
+.activePage{
+    border-bottom: 5px solid aquamarine;
+}
+
+/*--------------------------------------------------------------------------*/
+
+.articles{
+    height: 500px;
+    background: url("img/img1.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.info{
+    align-self: flex-end;
+    color: aquamarine;
+    margin: 50px;
+}
+
+.paginator{
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.pages{
+    display: flex;
+    flex-direction: row;
+}
+
+.pageBar{
+    height: 5px;
+    width: 60px;
+    margin: 0 10px;
+    background-color: gray;
+}
+
+.active{
+    background-color: aquamarine;
+}
